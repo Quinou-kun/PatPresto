@@ -1,7 +1,7 @@
 <template>
   <div class="hungry-container">
       <b-button class="hungry-button">A emporter</b-button>
-      <b-button class="hungry-button">Livraison</b-button>
+      <router-link to="/supply"><b-button class="hungry-button">Livraison</b-button></router-link>
       <router-link to="/"><b-button class="pp-back"><icon scale="2" name="reply"></icon></b-button></router-link>
 
   </div>
