@@ -37,7 +37,7 @@
       </div>
 
       <div>
-          <b-button class="pp-button-commander">J'AI FAIM !</b-button>
+          <router-link to="/hungry"><b-button class="pp-button-commander">J'AI FAIM !</b-button></router-link>
       </div>
 
   </div>
