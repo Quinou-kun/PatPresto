@@ -9,7 +9,6 @@
                       :interval="4000"
                       img-width="1024"
                       img-height="480"
-                      v-model="slide"
                       @sliding-start="onSlideStart"
                       @sliding-end="onSlideEnd"
           >
@@ -38,7 +37,7 @@
       </div>
 
       <div>
-          <b-button class="pp-button-commander">J'AI FAIM !</b-button>
+          <router-link to="/hungry"><b-button class="pp-button-commander">J'AI FAIM !</b-button></router-link>
       </div>
 
   </div>
