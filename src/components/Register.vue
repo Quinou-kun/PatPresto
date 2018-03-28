@@ -1,6 +1,6 @@
 <template>
   <div class="login-container" style="text-align : center">
-      <div><h3>Se connecter</h3></div>
+      <div><h3>Créer un compte</h3></div>
       <div class="login-form">
           <b-form>
               <b-form-group
@@ -23,8 +23,23 @@
                                 placeholder="Enter password">
                   </b-form-input>
               </b-form-group>
-              <b-button class="login-button"> Se connecter !</b-button>
-              <div><router-link to="/register"><a >Je n'ai pas encore de compte client</a></router-link></div>
+              <b-form-group
+                      label="Retapez votre mot de passe">
+                  <b-form-input
+                          type="password"
+                          v-model="form.password"
+                          required
+                          placeholder="Enter password">
+                  </b-form-input>
+              </b-form-group>
+
+              <b-form-checkbox id="checkbox1"
+                               value="accepted"
+                               unchecked-value="not_accepted">
+                  J'accepte les termes et conditions
+              </b-form-checkbox>
+              <b-button class="login-button"> Créer mon compte !</b-button>
+              <div><router-link to="/login"><a >J'ai déjà un compte client</a></router-link></div>
           </b-form>
       </div>
   </div>
@@ -54,6 +69,9 @@ export default {
         margin : auto;
         padding : 5%;
         margin-top : 40px;
+    }
+    .login-form{
+        margin-top : 20px;
     }
 
     .login-button{

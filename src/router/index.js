@@ -2,6 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/HelloWorld'
 import Login from '@/components/Login'
+import Register from '@/components/Register'
+import Hungry from '@/components/Hungry'
+import Supply from '@/components/Supply'
 
 Vue.use(Router)
 
@@ -16,6 +19,22 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/register',
+      name: 'Register',
+      component: Register
+    },
+    {
+      path: '/hungry',
+      name: 'Hungry',
+      component: Hungry
+    },
+    {
+      path: '/supply',
+      name: 'supply',
+      component: Supply
     }
+
   ]
 })
