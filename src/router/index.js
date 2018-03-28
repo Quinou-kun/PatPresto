@@ -5,6 +5,7 @@ import Login from '@/components/Login'
 import Register from '@/components/Register'
 import Hungry from '@/components/Hungry'
 import Supply from '@/components/Supply'
+import Order from '@/components/Order'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/supply',
       name: 'supply',
       component: Supply
+    },
+    {
+      path: '/order',
+      name: 'order',
+      component: Order
     }
 
   ]
