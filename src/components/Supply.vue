@@ -27,7 +27,7 @@
 
 
       <b-form-group v-if="form.location.length != 0 && form.code.length === 5"
-                    label="Heure de livraison disponibles">
+                    label="Choisissez une heure estimée de livraison">
           <b-form-radio-group class="pp-radio" id="btnradios3"
                               buttons
                               stacked
@@ -39,7 +39,7 @@
       <router-link to="/hungry"><b-button class="pp-back"><icon scale="2" name="reply"></icon></b-button></router-link>
 
 
-      <router-link v-if="form.location.length != 0 && form.code.length === 5 && selected != ''" to="/"><b-button class="pp-validate"><icon scale="2" name="share"></icon></b-button></router-link>
+      <router-link v-if="form.location.length != 0 && form.code.length === 5 && selected != ''" to="/order"><b-button class="pp-validate"><icon scale="2" name="share"></icon></b-button></router-link>
 
   </div>
 </template>
@@ -68,7 +68,7 @@ export default {
 
 <style>
     body{
-        font-size : 1.4em;
+        font-size : 1.2em;
     }
     .supply-container{
         text-align : center;
