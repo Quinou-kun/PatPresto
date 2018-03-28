@@ -9,7 +9,6 @@
                       :interval="4000"
                       img-width="1024"
                       img-height="480"
-                      v-model="slide"
                       @sliding-start="onSlideStart"
                       @sliding-end="onSlideEnd"
           >

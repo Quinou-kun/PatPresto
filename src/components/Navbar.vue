@@ -6,8 +6,8 @@
           <b-collapse is-nav id="nav_collapse">
               <!-- Right aligned nav items -->
               <b-navbar-nav class="ml-auto">
-                  <b-nav-item to="/" style="border-bottom : 1px solid #EEB422">Home</b-nav-item>
-                  <b-nav-item to="/login">Login</b-nav-item>
+                  <b-nav-item to="/" style="border-bottom : 1px solid #EEB422">Accueil</b-nav-item>
+                  <b-nav-item to="/login">Me connecter</b-nav-item>
               </b-navbar-nav>
           </b-collapse>
       </b-navbar>
