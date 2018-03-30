@@ -12,7 +12,7 @@
           <p>Votre commande est en cours de préparation et devrait être prête et livrée à votre domicile pour 19h08 ! </p>
           <p>Merci d'avoir choisi Pat'Presto pour votre repas et à bientôt !</p>
           <icon scale="5" style="color : grey; width : 100%" name="smile-o"></icon>
-          <router-link to="/r"><b-button style="vertical-align : middle; margin-top : 20px;background-color : #eeb422;border : none;font-size : 1.3em;"><icon style="vertical-align : middle; margin : 10px;" scale="2" name="home"></icon>Retourner à l'accueil</b-button></router-link>
+          <router-link to="/"><b-button style="vertical-align : middle; margin-top : 20px;background-color : #eeb422;border : none;font-size : 1.3em;"><icon style="vertical-align : middle; margin : 10px;" scale="2" name="home"></icon>Retourner à l'accueil</b-button></router-link>
 
       </div>
 
